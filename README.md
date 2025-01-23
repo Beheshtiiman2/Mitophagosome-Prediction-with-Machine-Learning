@@ -1,2 +1,3 @@
 # Mitophagosome-Prediction-with-Machine-Learning
- This sample code predicts mitophagosome and mitochondrial counts using behavioral data as predictors, specifically focusing on hippocampal mitophagosome prediction. 
+ This sample code predicts mitophagosome and mitochondrial counts using behavioral data as predictors, specifically focusing on hippocampal mitophagosome prediction. The analysis uses only two behavioral features, which limits the interpretability of the feature coefficients. Eleven machine learning algorithms were evaluated, including Linear Regression, Ridge, Lasso, ElasticNet, Random Forest, Gradient Boosting, SVR, Decision Tree, K-Neighbors, Gaussian Process, and XGBoost. Given the small sample size, Leave-One-Out Cross-Validation (LOOCV) was used for model validation. More details are available in:
+https://www.biorxiv.org/content/10.1101/2024.10.30.621097v1.full.pdf
